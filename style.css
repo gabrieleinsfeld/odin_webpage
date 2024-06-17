@@ -151,6 +151,12 @@ nav{
     padding-left: 100px;
     padding-right: 100px;
     height: 400px;
+    color: #1F2937;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #container-4{
@@ -158,13 +164,52 @@ nav{
     padding-left: 100px;
     padding-right: 100px;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container-4 div{
+    background-color: #3882F6;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+#cta{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#cta span:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 400;
+    color: #E5E7EB;
+
+}
+
+#cta-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 1px #F9FAF8;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 footer{
- 
+    color: #F9FAF8;
     background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
     height:50px;
+    font-size: 14px;
+    text-align: center;
 }
 
